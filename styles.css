@@ -1,0 +1,100 @@
+/* Estilo básico para todas as páginas */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ce72bf;
+    color: #faf6f6;
+    margin-top: 40px 0;
+    padding: 0;
+    line-height: 1,6;
+}
+
+header {
+    background-color: #712396;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 2.5em;
+}
+
+p {
+    text-align: justify;    
+    margin: 40px 0;
+    font-size: 20px;
+}
+main {
+    margin: auto;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.texto{
+    width: 100%;
+    margin: auto;    
+}
+texto-intro {
+    font-size: 2.0em;
+}
+
+form {
+    width: 500px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+    background: #df0b98;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #0a0404;
+    border-radius: 10px;
+}
+
+form input[type="submit"] {
+    background-color: #0a0404;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #269c3a;
+}
